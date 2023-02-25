@@ -1,5 +1,5 @@
-import Gameboard from './Classes/Gameboard';
-import Ship from './Classes/Ship';
+import Gameboard from '../Classes/Gameboard';
+import Ship from '../Classes/Ship';
 
 function makeComputerBoard() {
     let computerBoard = new Gameboard();

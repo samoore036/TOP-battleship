@@ -1,9 +1,9 @@
-import Player from './Classes/Player';
-import shipImg from './images/viking-ship.png';
-import skullImg from './images/skull.png';
-import { openModal, updateModalResult } from './overlay';
-import { renderStartDiv } from './renderStartDiv';
-import { playerBoard, computerBoard } from './renderGame';
+import Player from '../Classes/Player';
+import shipImg from '../images/viking-ship.png';
+import skullImg from '../images/skull.png';
+import { openModal, updateModalResult } from './Overlay';
+import { renderStartDiv } from './Start Div';
+import { playerBoard, computerBoard } from './Game Render';
 
 let player, computer;
 

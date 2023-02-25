@@ -1,7 +1,7 @@
 import { startGame, makeMove, resetGame } from "./Game";
-import shipImg from './images/viking-ship.png';
-import { playerBoard } from './renderStartDiv';
-import makeComputerBoard from './createComputerBoard';
+import shipImg from '../images/viking-ship.png';
+import { playerBoard } from './Start Div';
+import makeComputerBoard from './Computer Board';
 
 let computerBoard;
 

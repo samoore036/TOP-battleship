@@ -1,4 +1,4 @@
-import gitIcon from './images/git.png';
+import gitIcon from '../images/git.png';
 
 function renderFooter() {
     const footer = document.createElement('div');

@@ -1,7 +1,7 @@
-import Gameboard from './Classes/Gameboard';
-import Ship from './Classes/Ship';
-import shipImg from './images/small-ship.png';
-import { renderGameDiv } from './renderGame';
+import Gameboard from '../Classes/Gameboard';
+import Ship from '../Classes/Ship';
+import shipImg from '../images/small-ship.png';
+import { renderGameDiv } from './Game Render';
 
 let playerBoard,currShip,shipLength,vertical, selectedCells;
 

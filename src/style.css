@@ -194,6 +194,11 @@ a:hover {
     padding: 2rem;
 }
 
+#button-div {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .modal-btn {
     border: none;
     background: none;

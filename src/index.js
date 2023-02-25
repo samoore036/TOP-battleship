@@ -1,9 +1,9 @@
 import './style.css';
-import renderTitleDiv from './renderTitleDiv';
-import { renderStartDiv } from './renderStartDiv';
-import { makeGameDiv } from './renderGame';
-import renderFooter from './renderFooter';
-import { renderOverlay } from './overlay';
+import renderTitleDiv from './Modules/Title Div';
+import { renderStartDiv } from './Modules/Start Div';
+import { makeGameDiv } from './Modules/Game Render';
+import renderFooter from './Modules/Footer';
+import { renderOverlay } from './Modules/Overlay';
 
 const body = document.body;
 body.appendChild(renderTitleDiv());
